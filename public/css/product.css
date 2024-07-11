@@ -1,0 +1,74 @@
+.main_container{
+    background-color: var(--white);
+    width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.box1{
+    width: 30%;
+    /* background-color: var(--light-green); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 img{
+width: 80%;
+}
+.box2{
+width: 70%;
+padding: 0 2%;
+/* background-color: yellow; */
+}
+
+.box2 .title{
+    font-size: 2rem;
+    line-height: 4rem;
+    letter-spacing: 1px;
+}
+.box2 .description{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+.box2 .price{
+    border: 1px var(--light-green) solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 3% 0;
+}
+.box2 .price .top{
+    color: var(--white);
+    background-color: var(--light-green);
+    padding: 5px;
+}
+.box2 .price .top p{
+    letter-spacing: 2px;
+}
+.box2 .price .down p{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 2em;
+}
+.box2 .price .down{
+    padding: 5px;
+}
+.btn{
+    width: 100%;
+    /* margin-top: 5%; */
+}
+
+form input{
+    border: 2px var(--light-grey-color) solid;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+form input:focus{
+    border-color: var(--light-green);
+}
